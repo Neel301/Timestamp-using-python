@@ -1,0 +1,8 @@
+DATE = 'Date'
+START = 'Start'
+PAUSE = 'Pause'
+RESUME = 'Resume'
+STOP = 'Stop'
+TOTAL= 'Total Working Hours'
+BREAK= 'Break Hours'
+OBSERVATION = 'Observation'
