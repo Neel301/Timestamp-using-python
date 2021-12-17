@@ -21,7 +21,7 @@ class Users:
 
 
 userDict = dict()
-userDict["Neel Patel"] = Users("Neel Patel")
+userDict["write your name"] = Users("write your name")
 
 class MainWindow(QMainWindow):
     def __init__(self):
@@ -34,8 +34,8 @@ class MainWindow(QMainWindow):
         self.submitButton.clicked.connect(self.submit_button_clicked)
         self.ResumeButton.clicked.connect(self.resume_button_clicked)
         self.text_edit = QTextEdit()
-        self.fileName = "New_data.csv"
-        self.fileName = "Timestamp_DEC.csv"
+        self.fileName = "file name.csv"
+        self.fileName = "file name.csv"
         self.start_time: datetime = None
         self.start_time_str = ''
         self.pause_time: datetime = None
